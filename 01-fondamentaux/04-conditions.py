@@ -237,3 +237,31 @@ print("Fin du programme")
 # - validation
 # - contrôle d'accès
 # - logique métier
+
+
+# -------------------------
+#   EXERCICE PRATIQUE
+# -------------------------
+
+"""
+    EXERCICE :
+
+    Tu dois créer un programme qui analyse la note d'un étudiant.
+
+    Instructions :
+
+    1. Crée une variable "note" avec une valeur entre 0 et 20
+    2. Affiche un message selon la note :
+
+    - Si la note est supérieure ou égale à 16 → "Très bien"
+    - Si la note est entre 12 et 15 → "Bien"
+    - Si la note est entre 10 et 11 → "Passable"
+    - Sinon → "Échec"
+
+    3. Ajoute une condition supplémentaire :
+    - Si la note est inférieure à 0 ou supérieure à 20 → afficher "Note invalide"
+
+    IMPORTANT :
+    - Utilise if / elif / else
+    - Pense à bien organiser les conditions
+"""
