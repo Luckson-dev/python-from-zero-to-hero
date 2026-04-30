@@ -187,3 +187,32 @@ while compteur < 3:
 
 # for   → nombre de répétitions connu
 # while → condition à respecter
+
+
+# --------------------------
+#  EXERCICE PRATIQUE
+# --------------------------
+
+"""
+    EXERCICE :
+
+    Tu dois pratiquer les boucles en Python.
+
+    Instructions :
+
+    1. Utilise une boucle for avec range() pour afficher les nombres de 1 à 10
+
+    2. Utilise une boucle for avec range() pour afficher uniquement les nombres pairs entre 1 et 20
+
+    3. Utilise une boucle while pour afficher les nombres de 1 à 5
+
+    4. Crée une boucle while qui affiche les nombres de 10 à 1 (compte à rebours)
+
+    5. Crée une boucle for avec range() qui affiche :
+        "Bonjour numéro X" pour X allant de 1 à 5
+
+    IMPORTANT :
+    - Utilise correctement for et while
+    - Fais attention aux conditions de sortie dans while
+    - Évite les boucles infinies
+"""
