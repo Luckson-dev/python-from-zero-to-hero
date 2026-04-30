@@ -64,13 +64,14 @@ Ensuite, suis les dossiers dans l’ordre :
 ## 📁 Structure du projet
 
 ```
-📄 00-introduction
-📄 01-bases
-📄 02-syntaxe
-📄 03-conditions
-📄 04-boucles
-📄 05-fonctions
-📄 06-structures-de-donnees
+📁 Fondamentaux
+    📄 00-introduction
+    📄 01-bases
+    📄 02-syntaxe
+    📄 03-conditions
+    📄 04-boucles
+    📄 05-fonctions
+    📄 06-structures-de-donnees
 📁 07-modules
 📁 08-poo
 📁 09-projets
