@@ -12,6 +12,7 @@ LES OPÉRATIONS
 
 """
 
+
 # -------------------------
 # OPÉRATIONS ARITHMÉTIQUES
 # -------------------------
@@ -99,6 +100,95 @@ print("Age: " + str(25))  # conversion en string
 
 # 2. Le + assemble les textes
 # 3. Le * répète les textes
+
+
+
+# -----------------------------
+#  OPÉRATIONS D'AFFECTATION
+# -----------------------------
+
+"""
+    DÉFINITION
+
+    Les opérations d'affectation servent à attribuer une valeur à une variable
+    et à modifier cette valeur au cours du programme.
+
+    L'opérateur principal est "=".
+
+    Mais il existe aussi des formes abrégées pour simplifier les calculs.
+"""
+
+# ----- AFFECTATION SIMPLE ------
+
+x = 10  # on stocke la valeur 10 dans la variable x
+
+print(x)
+
+# ----- AFFECTATION AVEC ADDITION ------
+
+x = 10
+
+x = x + 5  # on ajoute 5 à x
+
+print(x)  # 15
+
+# Version simplifiée :
+x += 5  # équivalent à x = x + 5
+
+print(x)
+
+# ----- AFFECTATION AVEC SOUSTRACTION ------
+
+x = 10
+
+x -= 3  # x = x - 3
+
+print(x)  # 7
+
+# ------ AFFECTATION AVEC MULTIPLICATION -------
+
+x = 10
+
+x *= 2  # x = x * 2
+
+print(x)  # 20
+
+# ----- AFFECTATION AVEC DIVISION ------
+
+x = 10
+
+x /= 2  # x = x / 2
+
+print(x)  # 5.0
+
+# ------ AUTRES OPÉRATIONS ---------
+
+x = 10
+
+x %= 3   # reste de la division
+print(x)
+
+x = 10
+x //= 3  # division entière
+print(x)
+
+x = 2
+x **= 3  # puissance
+print(x)
+
+# ----- REMARQUES -------
+
+# 1. "x = x + 1" signifie :
+# on prend la valeur actuelle de x,
+# on ajoute 1,
+# puis on remplace l'ancienne valeur
+
+# 2. Les versions abrégées (+=, -=, etc.) sont plus utilisées en pratique
+
+# 3. Ces opérations sont très utilisées dans :
+# - les boucles
+# - les compteurs
+# - les algorithmes
 
 
 # --------------------
