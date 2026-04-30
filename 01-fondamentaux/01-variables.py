@@ -79,6 +79,63 @@ print(is_active)
 print(etat_civil)
 
 
+# -----------------------------
+# LES COMMENTAIRES EN PYTHON
+# -----------------------------
+
+"""
+    DÉFINITION
+
+    Un commentaire est un texte dans le code qui n'est pas exécuté par Python.
+
+    Il sert à :
+    - expliquer le code
+    - rendre le programme plus lisible
+    - aider les autres développeurs (ou toi-même plus tard)
+
+"""
+
+# ------ COMMENTAIRE SIMPLE -------
+
+# Ceci est un commentaire
+# Python ignore cette ligne
+
+nom = "Alice"  # Ceci est un commentaire à la fin d'une ligne
+
+
+# ------ COMMENTAIRE MULTILIGNE -------
+
+"""
+    Ceci est un commentaire sur plusieurs lignes.
+
+    On l'utilise pour :
+    - expliquer une section entière
+    - documenter le code
+    - écrire des descriptions longues
+"""
+
+age = 25
+
+# ----- EXEMPLE COMPLET -----
+
+# On stocke le nom d'une personne
+nom = "Alice"
+
+# On stocke son âge
+age = 25
+
+# On affiche les informations
+print(nom)
+print(age)
+
+# À SAVOIR SUR LE COMMENTAIRE
+
+# Les commentaires ne sont jamais exécutés
+# Ils servent uniquement à expliquer le code
+# Un bon code = code + commentaires clairs
+# Trop de commentaires inutiles = mauvais aussi (reste simple et clair)
+
+
 # ----------------------------------------
 #  REMARQUES IMPORTANTES SUR LES VARIABLES
 # ----------------------------------------
