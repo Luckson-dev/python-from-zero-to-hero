@@ -85,9 +85,7 @@ print(type(is_active))    # bool
 print(type(etat_civil))   # NoneType
 
 
-# ---------------------
-# REMARQUE
-# ---------------------
+# ------- REMARQUE --------
 
 # Python détermine automatiquement le type de la variable
 # On n’a pas besoin de déclarer le type manuellement
@@ -96,3 +94,82 @@ print(type(etat_civil))   # NoneType
 
 x = 10        # int
 x = "Bonjour" # devient str
+
+
+# ----------------------------
+# LES MÉTHODES DE STRING (str)
+# ----------------------------
+
+"""
+    DÉFINITION
+
+    En Python, une variable n'est pas seulement une valeur.
+
+    C'est un OBJET.
+
+    Un objet est quelque chose qui :
+    - contient une valeur
+    - possède des actions intégrées appelées MÉTHODES
+
+    Une méthode permet de manipuler la valeur de la variable.
+"""
+
+texte = "bonjour python"
+
+# upper() → mettre lext en majuscules
+
+print(texte.upper())
+# BONJOUR PYTHON
+
+# lower() → mettre le text en minuscules
+
+print(texte.lower())
+# bonjour python
+
+# capitalize() → première lettre en majuscule
+
+print(texte.capitalize())
+# Bonjour python
+
+# title() → chaque mot commence par une majuscule
+
+print(texte.title())
+# Bonjour Python
+
+# strip() → supprimer les espaces début/fin
+
+texte2 = "   hello   "
+print(texte2.strip())
+# hello
+
+# replace() → remplacer un mot
+
+print(texte.replace("python", "monde"))
+# bonjour monde
+
+# split() → découper une chaîne en liste
+
+phrase = "je suis dev"
+print(phrase.split())
+# ['je', 'suis', 'dev']
+
+# find() → chercher une position
+
+print(texte.find("python"))
+# retourne l’index où commence "python"
+
+# startswith() / endswith() : vérifie si le mot commence avec ou se termine avec
+
+print(texte.startswith("bonjour"))  # True
+print(texte.endswith("python"))     # True
+
+
+# ------ RÉSUMÉ SIMPLE -------
+
+# str = objet texte
+# .upper() → majuscule
+# .lower() → minuscule
+# .capitalize() → première lettre
+# .replace() → remplacer
+# .split() → découper
+# .strip() → nettoyer espaces
