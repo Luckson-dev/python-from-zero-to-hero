@@ -71,8 +71,10 @@ Ensuite, suis les dossiers dans l’ordre :
     📄 03-opérations
     📄 04-conditions
     📄 05-boucles
-    📄 06-fonctions
-    📄 07-structures-de-donnees
+    📄 06-listes
+    📄 07-tuples
+    📄 08-dictionnaires
+    📄 09-fonctions
 📁 02-modules
 📁 03-poo
 📁 04-projets
