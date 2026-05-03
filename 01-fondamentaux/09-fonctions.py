@@ -192,12 +192,12 @@ def dire_bonjour():
 dire_bonjour()
 
 """
-Pourquoi ?
+    Pourquoi ?
 
-Parce qu'une fonction est comme un outil :
-👉 elle ne s'utilise que si tu l'appelles
+    Parce qu'une fonction est comme un outil :
+    👉 elle ne s'utilise que si tu l'appelles
 
-Sans appel → rien ne se passe
+    Sans appel → rien ne se passe
 """
 
 
@@ -302,7 +302,7 @@ print(y)
     - les PARAMÈTRES
     - les ARGUMENTS
 
-    👉 PARAMÈTRE vs ARGUMENT
+    PARAMÈTRE vs ARGUMENT
 
     - PARAMÈTRES → variables définies dans la fonction
     - ARGUMENTS → valeurs envoyées lors de l'appel
@@ -376,9 +376,7 @@ def afficher_infos_complet(nom, age, ville):
 afficher_infos_complet("Alice", 25, "Paris")
 
 
-# ----------------------------
-# 🧠 RÉSUMÉ : LES FONCTIONS
-# ----------------------------
+# ----- RÉSUMÉ : LES FONCTIONS ------
 
 """
     DÉFINITION
@@ -443,7 +441,7 @@ afficher_infos_complet("Alice", 25, "Paris")
     return : renvoie une valeur
 """
 
-# 🧠 À RETENIR
+# À RETENIR
 
 # - une fonction = outil réutilisable
 # - def = création
