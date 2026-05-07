@@ -75,6 +75,8 @@ Ensuite, suis les dossiers dans l’ordre :
     📄 07-tuples
     📄 08-dictionnaires
     📄 09-fonctions
+    📄 10-exceptions
+    📄 11-exercices
 📁 02-modules
 📁 03-poo
 📁 04-projets
